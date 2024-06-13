@@ -1,0 +1,117 @@
+body{
+   background-color:rgb(244, 244, 240); 
+}
+ header{
+    display: flex;
+    padding: 50px;
+   
+}
+ #first{
+       padding: 70px 200px;
+       display: inline;
+
+        }
+.b1{
+    height: 30px;
+    width: 90px;
+    background-color: rgb(198, 190, 190);
+ }
+
+ #container{
+    display: grid;
+    grid-template-columns:
+         repeat(2,1fr);
+    height: 600px;
+    margin-left: 45px;
+    width: 100%;
+      background-color: rgb(250, 246, 246);
+       }
+
+#container{
+    background-color: yellow;
+}
+
+#column1{
+    margin-left: 60px;
+}
+h1{
+    color: rgb(20, 3, 3);
+}
+p{
+    color: rgb(19, 1, 1);
+}
+
+h2{
+    font-size: 15px;
+    font-family: Cambria, Cochin, 
+    Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;   
+}
+
+input{
+    background-color: rgb(190, 189, 184);
+     border-radius:15px;
+     height:30px;
+     width: 350px;
+    
+ }
+
+#phone>p{
+    color: blue;
+    margin: 100px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.phone button{
+    border-radius:0px;
+    height:10px;
+    width: 10px;
+    margin-right: 500px;}
+    
+#phone>button{
+    height: 50px;
+    width: 350px;
+    border-radius: 20px;
+    background-color: rgb(140, 204, 237);
+}
+
+#image3 img{
+    width: 800px;
+    height:600px;
+    margin-right: 80px;
+    
+   }
+
+   /* phone screen */
+   @media(max-width:768px){
+    img{
+        margin-left: 60px;
+    }
+    #first {
+        display: none;
+    right: 70px;
+    }
+    #container{
+        position: relative;
+        right: 90px;
+    
+    }
+    .b2{
+        margin-top: 10px;
+    }
+
+}
+
+
+/* tablet screen */
+@media(min-width:768px)and(max-width:1024px){
+    #login-image img{
+        object-fit: cover;
+    }
+}
+footer h5{
+    font-family: Arial,
+     Helvetica, sans-serif;
+     margin-left: 500px;
+}
